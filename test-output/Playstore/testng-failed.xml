@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Playstore]">
+  <test name="Install_App(failed)">
+    <classes>
+      <class name="Playstore.Install_App">
+        <methods>
+          <include name="Install_App"/>
+          <include name="afterSuite"/>
+          <include name="beforetest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Playstore.Install_App -->
+    </classes>
+  </test> <!-- Install_App(failed) -->
+</suite> <!-- Failed suite [Playstore] -->

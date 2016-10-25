@@ -1,0 +1,8 @@
+<suite name= "Smoke_SMS_Test"> 
+
+   <test name="Send_and_Receive_SMS">
+        <classes>
+            <class name="SMS.Send_and_Receive_SMS"></class>
+        </classes>
+    </test>  
+</suite>

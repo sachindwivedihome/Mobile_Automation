@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.345 sec <<< FAILURE!
+testApp(com.appium.mavensample.TestCaseacres99)  Time elapsed: 1.527 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 528 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PI-LT-1282L', ip: '192.168.2.244', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
+	at com.appium.mavensample.TestCaseacres99.testApp(TestCaseacres99.java:37)
+

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "Clock_Test">
+    
+    
+   <test name="Setting_alarm">
+        <classes>
+            <class name="Clock.Setting_alarm"></class>
+        </classes>
+    </test>
+    
+</suite>

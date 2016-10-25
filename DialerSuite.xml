@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "Dialer_Test">
+    
+    
+   <test name="Dialing number">
+        <classes>
+            <class name="Dialer.Dialling_number"></class>
+        </classes>
+    </test>
+    
+      <test name="Create Contact">
+        <classes>
+            <class name="Dialer.CreateContact"></class>
+        </classes>
+    </test>
+    
+</suite>

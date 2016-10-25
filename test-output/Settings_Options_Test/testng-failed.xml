@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Settings_Options_Test]">
+  <test name="Wifi_turning_off">
+    <classes>
+      <class name="Settings.Wifi_turning_off"/>
+    </classes>
+  </test> <!-- Wifi_turning_off -->
+  <test name="Wifi_turning_on">
+    <classes>
+      <class name="Settings.Wifi_turning_on"/>
+    </classes>
+  </test> <!-- Wifi_turning_on -->
+  <test name="Wifi_turning_off(failed)">
+    <classes>
+      <class name="Settings.Wifi_turning_off">
+        <methods>
+          <include name="wifi_Turning_Off"/>
+        </methods>
+      </class> <!-- Settings.Wifi_turning_off -->
+    </classes>
+  </test> <!-- Wifi_turning_off(failed) -->
+  <test name="Wifi_turning_on(failed)">
+    <classes>
+      <class name="Settings.Wifi_turning_on">
+        <methods>
+          <include name="wifi_Turning_On"/>
+        </methods>
+      </class> <!-- Settings.Wifi_turning_on -->
+    </classes>
+  </test> <!-- Wifi_turning_on(failed) -->
+</suite> <!-- Failed suite [Settings_Options_Test] -->

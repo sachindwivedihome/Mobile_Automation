@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.appium.mavensample.TestCaseacres99" duration-ms="8135" started-at="2016-07-01T05:42:19Z" finished-at="2016-07-01T05:42:27Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8135" started-at="2016-07-01T05:42:19Z" finished-at="2016-07-01T05:42:27Z">
+      <class name="com.appium.mavensample.TestCaseacres99">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:com.appium.mavensample.TestCaseacres99@3fb6a447]" name="testApp" duration-ms="8116" started-at="2016-07-01T11:12:19Z" finished-at="2016-07-01T11:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.appium.mavensample.TestCaseacres99 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.appium.mavensample.TestCaseacres99 -->
+</testng-results>

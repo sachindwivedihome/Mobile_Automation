@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.appium.mavensample.TestCaseacres99"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.appium.mavensample.TestCaseacres99">
+        <methods>
+          <include name="testApp"/>
+        </methods>
+      </class> <!-- com.appium.mavensample.TestCaseacres99 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,29 @@
+<suite name= "Dialer_Test">
+ 
+    <!--
+   <test name="Dialing number">
+        <classes>
+            <class name="Dialer.Dialling_number"></class>
+        </classes>
+    </test>
+
+      <test name="TurnignOn_FlightMode_NotificatioPanel">
+        <classes>
+            <class name="Dialer.TurnignOn_FlightMode_NotificatioPanel"></class>
+        </classes>
+    </test>
+   
+   
+         <test name="CreateContact">
+        <classes>
+            <class name="Dialer.CreateContact"></class>
+        </classes>
+    </test>
+--> 
+
+         <test name="CreateContact">
+        <classes>
+            <class name="Dialer.SearchContact"></class>
+        </classes>
+    </test>  
+</suite>

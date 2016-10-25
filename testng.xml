@@ -1,0 +1,21 @@
+<suite name="allSuite">
+	    <suite-files>
+	       
+<!--	<suite-file path="D:\Mobile_Automation\SettingsSuite.xml"/>
+	  	<suite-file path="D:\Mobile_Automation\DialerSuite.xml"/>
+       	<suite-file path="D:\Mobile_Automation\Clock.xml"/>       	 
+		<suite-file path="D:\Mobile_Automation\SmokeDialerSuite.xml"/>  
+		<suite-file path="D:\Mobile_Automation\Settings_Smoke.xml"/>       		   
+		<suite-file path="C:\Users\Sachin\Downloads\Mobile_Automation-master\Mobile_Automation-master\SMS_Smoke.xml"/> 
+		<suite-file path="C:\Users\Sachin\Downloads\Mobile_Automation-master\Mobile_Automation-master\ContactsSmoke.xml"/>  
+		<suite-file path="C:\Users\Sachin\Downloads\Mobile_Automation-master\Mobile_Automation-master\PlaystoreSmoke.xml"/>	
+		-->
+		
+	
+  		<suite-file path="C:\Users\Sachin\Downloads\Mobile_Automation-master\Mobile_Automation-master\GmailSmoke.xml"/> 
+  	
+  		
+  		</suite-files>
+</suite>
+
+

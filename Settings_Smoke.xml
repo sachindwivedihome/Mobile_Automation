@@ -1,0 +1,70 @@
+<suite name="Settings_suite">
+
+    
+ <test name = "settingUp_Wifi">
+        <classes>
+        <class name="Settings.settingUp_Wifi"> </class>    
+        </classes>
+ </test>
+    
+      <test name = "Wifi_turning_on">
+        <classes>
+        <class name="Settings.Wifi_turning_on"> </class>    
+        </classes>
+     </test>
+    
+    <test name = "Wifi_turning_off">
+        <classes>
+        <class name="Settings.Wifi_turning_off"> </class>    
+        </classes>
+    </test>
+    
+    <test name = "Bluetooh_turning_on">
+        <classes>
+        <class name="Settings.Bluetooth_turning_on"> </class>    
+        </classes>
+    </test>
+
+    <test name = "Bluetooth_turning_off">
+        <classes>
+        <class name="Settings.Bluetooth_turning_off"> </class>    
+        </classes>
+    </test>
+    
+    <test name = "Forgetting_Wifi_Password">
+        <classes>
+        <class name="Settings.Forgetting_Wifi_Password"> </class>    
+        </classes>
+    </test>
+    
+    <test name = "LaunchingWifi_FromNotificationPanel">
+        <classes>
+        <class name="Settings.LaunchingWifi_FromNotificationPanel"> </class>    
+        </classes>
+    </test>
+    
+        
+    <test name = "TurningOffWifi_FromNotificationPanel">
+        <classes>
+        <class name="Settings.TurningOffWifi_FromNotificationPanel"> </class>    
+        </classes>
+    </test>
+    
+    
+    <test name = "TurnignOnBT_FromNotificationPanel">
+        <classes>
+        <class name="Settings.TurnignOnBT_FromNotificationPanel"> </class>    
+        </classes>
+    </test>
+    
+
+
+    <test name = "TurnignOffBT_FromNotificationPanel">
+        <classes>
+        <class name="Settings.TurnignOffBT_FromNotificationPanel"> </class>    
+        </classes>
+    </test>
+        
+        
+    
+</suite>

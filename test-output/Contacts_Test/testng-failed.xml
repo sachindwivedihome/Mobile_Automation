@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Contacts_Test]">
+  <test name="Contacts(failed)">
+    <classes>
+      <class name="Contacts.Dialling_number">
+        <methods>
+          <include name="dialNumber"/>
+          <include name="afterSuite"/>
+          <include name="beforetest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Contacts.Dialling_number -->
+    </classes>
+  </test> <!-- Contacts(failed) -->
+</suite> <!-- Failed suite [Contacts_Test] -->

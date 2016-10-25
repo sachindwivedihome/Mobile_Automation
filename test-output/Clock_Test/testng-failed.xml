@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Clock_Test]">
+  <test name="Setting_alarm(failed)">
+    <classes>
+      <class name="Clock.Setting_alarm">
+        <methods>
+          <include name="setting_alarm"/>
+          <include name="afterSuite"/>
+          <include name="beforetest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Clock.Setting_alarm -->
+    </classes>
+  </test> <!-- Setting_alarm(failed) -->
+</suite> <!-- Failed suite [Clock_Test] -->

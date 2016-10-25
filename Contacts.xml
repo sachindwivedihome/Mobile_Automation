@@ -1,0 +1,9 @@
+<suite name= "Contacts">
+ 
+    <test name="CreateContact">
+        <classes>
+            <class name="Contacts.CreateContact"></class>
+        </classes>
+    </test>
+   
+</suite>

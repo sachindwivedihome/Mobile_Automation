@@ -1,0 +1,20 @@
+<suite name= "ContactsSmoke">
+<!--     <test name="CreateContact">
+        <classes>
+            <class name="Contacts.CreateContact"></class>
+        </classes>
+    </test>
+ 
+    
+    <test name="DeleteContact">
+        <classes>
+            <class name="Contacts.DeleteContact"></class>
+        </classes>
+    </test>   -->
+    
+    <test name="CreateContact">
+        <classes>
+            <class name="Contacts.SearchContact"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+<suite name= "Playstore">
+    <test name="Install_App">
+        <classes>
+            <class name="Playstore.Install_App"></class>
+        </classes>
+    </test>  
+</suite>

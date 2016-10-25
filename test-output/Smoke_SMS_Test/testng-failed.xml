@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke_SMS_Test]">
+  <test name="Send_and_Receive_SMS(failed)">
+    <classes>
+      <class name="SMS.Send_and_Receive_SMS">
+        <methods>
+          <include name="Send_and_Receive_SMS"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- SMS.Send_and_Receive_SMS -->
+    </classes>
+  </test> <!-- Send_and_Receive_SMS(failed) -->
+</suite> <!-- Failed suite [Smoke_SMS_Test] -->

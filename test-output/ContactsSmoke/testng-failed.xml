@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ContactsSmoke]">
+  <test name="CreateContact(failed)">
+    <classes>
+      <class name="Contacts.SearchContact">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforetest"/>
+          <include name="dialNumber"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Contacts.SearchContact -->
+    </classes>
+  </test> <!-- CreateContact(failed) -->
+</suite> <!-- Failed suite [ContactsSmoke] -->

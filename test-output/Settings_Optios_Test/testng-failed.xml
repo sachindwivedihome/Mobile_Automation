@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Settings_Optios_Test]">
+  <test name="Wifi_turning_on">
+    <classes>
+      <class name="com.appium.mavensample.Wifi_turning_on"/>
+    </classes>
+  </test> <!-- Wifi_turning_on -->
+  <test name="Wifi_turning_off">
+    <classes>
+      <class name="com.appium.mavensample.Wifi_turning_off"/>
+    </classes>
+  </test> <!-- Wifi_turning_off -->
+  <test name="Wifi_turning_off(failed)">
+    <classes>
+      <class name="com.appium.mavensample.Wifi_turning_on">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.appium.mavensample.Wifi_turning_on -->
+      <class name="com.appium.mavensample.Wifi_turning_off">
+        <methods>
+          <include name="wifi_Turning_Off"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.appium.mavensample.Wifi_turning_off -->
+    </classes>
+  </test> <!-- Wifi_turning_off(failed) -->
+</suite> <!-- Failed suite [Settings_Optios_Test] -->

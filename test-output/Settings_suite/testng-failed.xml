@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Settings_suite]">
+  <test name="LaunchingWifi_FromNotificationPanel(failed)">
+    <classes>
+      <class name="Settings.Bluetooth_turning_off">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.Bluetooth_turning_off -->
+      <class name="Settings.Bluetooth_turning_on">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.Bluetooth_turning_on -->
+      <class name="Settings.TurnignOnBT_FromNotificationPanel">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.TurnignOnBT_FromNotificationPanel -->
+      <class name="Settings.Wifi_turning_on">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.Wifi_turning_on -->
+      <class name="Settings.Wifi_turning_off">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.Wifi_turning_off -->
+      <class name="Settings.Forgetting_Wifi_Password">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.Forgetting_Wifi_Password -->
+      <class name="Settings.TurnignOffBT_FromNotificationPanel">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforetest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Settings.TurnignOffBT_FromNotificationPanel -->
+      <class name="Settings.TurningOffWifi_FromNotificationPanel">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.TurningOffWifi_FromNotificationPanel -->
+      <class name="Settings.LaunchingWifi_FromNotificationPanel">
+        <methods>
+          <include name="beforetest"/>
+          <include name="LaunchingWifi_FromNotificationPanel"/>
+        </methods>
+      </class> <!-- Settings.LaunchingWifi_FromNotificationPanel -->
+      <class name="Settings.settingUp_Wifi">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.settingUp_Wifi -->
+    </classes>
+  </test> <!-- LaunchingWifi_FromNotificationPanel(failed) -->
+  <test name="TurningOffWifi_FromNotificationPanel(failed)">
+    <classes>
+      <class name="Settings.Bluetooth_turning_off">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.Bluetooth_turning_off -->
+      <class name="Settings.Bluetooth_turning_on">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.Bluetooth_turning_on -->
+      <class name="Settings.TurnignOnBT_FromNotificationPanel">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.TurnignOnBT_FromNotificationPanel -->
+      <class name="Settings.Wifi_turning_on">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.Wifi_turning_on -->
+      <class name="Settings.Wifi_turning_off">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.Wifi_turning_off -->
+      <class name="Settings.Forgetting_Wifi_Password">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.Forgetting_Wifi_Password -->
+      <class name="Settings.TurnignOffBT_FromNotificationPanel">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforetest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Settings.TurnignOffBT_FromNotificationPanel -->
+      <class name="Settings.TurningOffWifi_FromNotificationPanel">
+        <methods>
+          <include name="TurningOffWifi_FromNotificationPanel"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.TurningOffWifi_FromNotificationPanel -->
+      <class name="Settings.settingUp_Wifi">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.settingUp_Wifi -->
+      <class name="Settings.LaunchingWifi_FromNotificationPanel">
+        <methods>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Settings.LaunchingWifi_FromNotificationPanel -->
+    </classes>
+  </test> <!-- TurningOffWifi_FromNotificationPanel(failed) -->
+</suite> <!-- Failed suite [Settings_suite] -->
